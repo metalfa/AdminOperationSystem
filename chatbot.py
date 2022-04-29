@@ -8,11 +8,23 @@ import time
 isWindows = True
 
 defaultMessage = """
-Ask Botty a question!
-['1']: Call Botty
-['2']: Talk to Botty
-['3']: Hack Botty
+Merci de saisir votre choix :
+['1']: Ajouter les produits ainsi que les quantités dans le stock
+['2']: Modifier les produits ainsi que les quantités dans le stock
+['3']: Consulter la liste des produits
+['4']: Quitter
+
 """
+
+
+
+
+
+
+
+
+
+
 defaultResponses = ["Yes", "No", 'Ja Ja', "Hmm", "Ugh", "*Hangs Up*"]
 defaultPunctuation = ['.', '?', '!', '...']
 callGreeting = ["Hello", "Who is there", "Hands up, you sussy impasta", "Hewo UWU"]
